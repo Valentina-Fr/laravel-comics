@@ -1,4 +1,4 @@
-<div class="container">
+<header class="container">
     <div class="row">
         <div class="col-4">
             <img src="{{ asset('images/dc-logo.png') }}" alt="logo" id="logo">
@@ -18,4 +18,4 @@
             </ul>
         </div>
     </div>
-  </div>
+</header>

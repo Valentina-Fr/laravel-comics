@@ -7,19 +7,21 @@
 .col-4{
     width: calc(100% / 12 * 4);
 }
-ul {
+header {
+  ul {
     display: flex;
     text-transform: uppercase;
+    li {
+      padding: 50px 5px;
+      margin-top: 3px;
+      a {
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: #4e585f;
+      }
+    } 
 }
-li {
-  padding: 50px 5px;
-  margin-top: 3px;
-  a {
-    font-weight: bold;
-    font-size: 0.8rem;
-    color: #4e585f;
-  }
-} 
+}
 .active a {
   color: $dc-color;
 }

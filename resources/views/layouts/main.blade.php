@@ -12,5 +12,7 @@
     <main>
        @yield('content')
     </main>
+    @include('includes.dc')
+    @include('includes.footer')
 </body>
 </html>
