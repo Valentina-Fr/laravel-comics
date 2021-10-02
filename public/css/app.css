@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -53,12 +57,6 @@ ul {
 header .row {
   align-items: center;
 }
-header .col-8 {
-  width: 66.6666666667%;
-}
-header .col-4 {
-  width: 33.3333333333%;
-}
 header ul {
   display: flex;
   text-transform: uppercase;
@@ -77,6 +75,14 @@ header ul li a.active {
 }
 header .active {
   border-bottom: 3px solid #0282f9;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
 }
 
 footer {
@@ -152,6 +158,19 @@ footer .social * {
 #card figcaption {
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+#comics {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#comics figure {
+  text-align: right;
+}
+#comics figure figcaption {
+  font-size: 0.8rem;
+  color: darkgrey;
+  font-weight: bold;
 }
 
 #jumbo {

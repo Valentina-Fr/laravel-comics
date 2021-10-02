@@ -5,8 +5,8 @@
         </div>
         <div class="col-8">
             <ul>
-                <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
+                <li><a href="{{url('/')}}">CHARACTERS</a></li>
+                <li><a href="{{route('comics')}}">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>

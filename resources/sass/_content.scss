@@ -1,3 +1,4 @@
+// Homepage
 #content {
     background-color: black;
     color: white;
@@ -33,5 +34,22 @@
     figcaption {
         font-size: 0.8rem;
         text-transform: uppercase;
+    }
+}
+
+// Pagina comics
+
+#comics {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    figure {
+        text-align: right;
+        
+        figcaption {
+            font-size: 0.8rem;
+            color: darkgrey;
+            font-weight: bold;
+        }
     }
 }
