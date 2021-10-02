@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('includes.header')
+    <div id="jumbo"></div>
     <main>
        @yield('content')
     </main>

@@ -19,4 +19,3 @@
         </div>
     </div>
 </header>
-<div id="jumbo"></div>
