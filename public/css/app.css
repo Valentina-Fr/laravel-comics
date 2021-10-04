@@ -22,6 +22,19 @@
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.font-green-light {
+  color: #bafd93;
+}
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -163,6 +176,24 @@ footer .social * {
 #comics {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+#comics h3 {
+  color: #003f5e;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#comics .px-1:last-child {
+  border-left: 1px solid black;
+}
+#comics .info-banner {
+  background-color: #55ba59;
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+#comics .info-banner * {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 #comics figure {
   text-align: right;

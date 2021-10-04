@@ -37,11 +37,33 @@
     }
 }
 
-// Pagina comics
+// Pagina show
 
 #comics {
     margin-top: 50px;
     margin-bottom: 50px;
+
+    h3 {
+        color: #003f5e;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .px-1:last-child {
+        border-left: 1px solid black;
+    }
+
+    .info-banner {
+        background-color: #55ba59;
+        color: white;
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+
+        * {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
 
     figure {
         text-align: right;
