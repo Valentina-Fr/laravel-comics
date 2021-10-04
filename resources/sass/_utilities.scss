@@ -34,3 +34,15 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.col-6 {
+    flex-basis: calc(100% /2);
+}
+
+.col-9 {
+    flex-basis: calc(100% /12 * 9);  
+}
+
+.col-3 {
+    flex-basis: calc(100% /12 * 3);  
+}

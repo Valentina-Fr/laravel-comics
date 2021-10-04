@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Home')
+@section('title', 'Comics')
 @section('content')
 <div id="content">
     <div class="container">
@@ -7,8 +7,10 @@
         <div class="row">
             @foreach($comics as $item)
                 <figure id="card">
-                    <img src="{{$item['thumb']}}" alt="{{$item['title']}}"> 
-                    <figcaption><a href="{{route('show', ['id'=> $loop->index])}}">{{ $item['title'] }} </a></figcaption>
+                    <a href="{{route('comics.show', ['id'=> $loop->index])}}">
+                        <img src="{{$item['thumb']}}" alt="{{$item['title']}}"> 
+                        <figcaption>{{ $item['title'] }}</figcaption>
+                    </a>
                 </figure>
             @endforeach
             <div class="btn dc-background font-white pointer">LOAD MORE</div>
